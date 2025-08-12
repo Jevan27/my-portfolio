@@ -4,16 +4,33 @@ import Expertise from "./components/Expertise/Expertise";
 import Navbar from "./components/Navbar/navbar";
 import Background from "./components/Background/Background";
 import Projects from "./components/Projects/Projects";
+import Contacts from "./components/Contacts/Contacts";
+import Section from "./components/Layout/Section";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Background />
       <Navbar />
-      <Banner />
-      <div id="expertise" className="h-16"></div>
-      <Expertise />
-      <Projects/>
+
+      <Section id="banner" spacing={null}>
+        <Banner />
+      </Section>
+
+      <Section id="expertise">
+        <Expertise />
+      </Section>
+
+      <Section id="projects" spacing={null}>
+        <Projects />
+      </Section>
+
+      <Section id="contacts">
+        <Contacts />
+      </Section>
+      
+      <Footer/>
     </>
   );
 }

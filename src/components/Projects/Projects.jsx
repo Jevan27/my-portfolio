@@ -6,7 +6,7 @@ const Projects = () => {
   const { visibleProjects, hasMore, showMore } = ProjectsLogic();
 
   return (
-    <section id="projects" className="mt-60 px-6 font-poppins">
+    <section className="mt-40 px-6 font-poppins">
       <h1 className="text-4xl font-bold font-poppins text-center mb-10 text">
         Projects
       </h1>

@@ -25,8 +25,8 @@ const Navbar = () => {
         <ul className="flex space-x-8 font-medium text-[1.3rem]">
           <li className="hover:text-granite-green cursor-pointer transition-colors duration-500" onClick={() => scrollToSection("home")}>Home</li>
           <li className="hover:text-granite-green cursor-pointer transition-colors duration-500" onClick={() => scrollToSection("expertise")}>Expertise</li>
-          <li className="hover:text-granite-green cursor-pointer transition-colors duration-500" onClick={() => scrollToSection("projects")}>Project</li>
-          <li className="hover:text-granite-green cursor-pointer transition-colors duration-500">Contacts</li>
+          <li className="hover:text-granite-green cursor-pointer transition-colors duration-500" onClick={() => scrollToSection("projects")}>Projects</li>
+          <li className="hover:text-granite-green cursor-pointer transition-colors duration-500" onClick={() => scrollToSection("contacts")}>Contacts</li>
         </ul>
       </div>
     </nav>

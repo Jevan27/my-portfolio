@@ -64,6 +64,7 @@
 body {
   margin: 1rem 4rem 0 4rem;
   background-color: #222831;
+  overflow-x: hidden;
 }
 
 .text{
