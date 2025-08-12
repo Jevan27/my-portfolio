@@ -48,6 +48,6 @@ export const expertiseData = [
     id: 6,
     expertise: "Git",
     image: image7, // Place inside public/images/
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing eslit."
   },
 ];
